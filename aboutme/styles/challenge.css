@@ -1,0 +1,52 @@
+body {
+    background-color: plum;
+}
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding: 0.9em;
+}
+header p, header h4{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+h4 {
+    padding: 1em;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    padding: 0.9em;
+
+}
+section p {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-size: small;
+}
+div p {
+    display: block;
+    margin: 0 auto;
+    width: 29%;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 1em;
+}
+footer p {
+    display: block;
+    width: 89%;
+    margin: 0 auto;
+    font-size: small;
+    text-align: center;
+}
+h1:hover {
+    color: black;
+}

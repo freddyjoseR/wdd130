@@ -1,40 +1,49 @@
-body {
+nav, footer {
     text-align: center;
-}
-
-nav {
     background-color: steelblue;
+    color: white;
     padding: 10px;
 }
 
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
 
 h1 {
+    text-align: center;
     color: steelblue;
 }
 
 img {
-    width: 800px;
-    border: 4px solid steelblue;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    /* border: 4px solid steelblue; */
 }
 
-p {
-    padding: 10px;
+main p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
-footer {
-    background-color: steelblue;
-    color: white;
+footer p{
+    font-size: 20x;
+    margin: 20xp auto;
 }
 
-.main-para {
+ /* .main-para {
     font-size: 1.5em;
     line-height: 1.5em;
-}
-#active {
+} */
+
+a:hover {
     background-color: white;
     color: steelblue;
 }
+/* #active {
+    background-color: white;
+    color: steelblue;
+} */
