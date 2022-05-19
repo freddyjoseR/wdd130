@@ -21,6 +21,7 @@ main section{
 }
 #background {
     height: 725px;
+    background-color: #b1a7a6;
 }
 body {
     font-family: 'Roboto', 'Arial', 'Helvetica';
@@ -126,4 +127,8 @@ footer .social img {
 }
 main section img {
     box-sizing: border-box;
+}
+.mountains {
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
