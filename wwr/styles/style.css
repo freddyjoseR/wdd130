@@ -71,12 +71,11 @@ nav a:hover {
 }
 footer h3 {
     background-color: #b1a7a6;
-    color: black;
-    
+    color: #660708;
 }
 footer a {
     background-color: #b1a7a6;
-    color: black;
+    color: #660708;
     text-decoration: none;
 }
 footer a:hover {
