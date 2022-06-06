@@ -151,6 +151,10 @@ footer .social img {
     opacity: .6;
     transform: scale(1.1);
 }
+.icon6:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
 main section img {
     box-sizing: border-box;
 }

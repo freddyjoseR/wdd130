@@ -1,0 +1,51 @@
+body {
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+body h1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px;
+    border: 1px solid black;
+    color: rgb(222, 152, 152);
+    background-color: rgb(44, 44, 41);
+}
+nav {
+    display: flex;
+    background-color: rgb(87, 66, 66);
+    text-align: center;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+a {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 25px 50px;
+}
+nav a:hover {
+    background-color: white;
+    color: rgb(44, 44, 41);
+}
+p {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    background-color:rgb(87, 66, 66);
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+}
