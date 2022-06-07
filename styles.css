@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(44, 44, 41);
 }
 body h1 {
     display: block;
@@ -42,7 +42,9 @@ img {
 }
 @media screen and (max-width: 900px) {
     nav {
+        width: 100% auto;
         flex-direction: column;
+
     }
     nav a {
         display: block;
