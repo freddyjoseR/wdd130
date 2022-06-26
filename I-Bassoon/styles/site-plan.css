@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0466C8   ;
-  --secondary-color: #002855 ;
-  --accent1-color: #001233;
-  --accent2-color: #5a647a;
+  --primary-color: #290000   ;
+  --secondary-color: #780000 ;
+  --accent1-color: #0f0606;
+  --accent2-color: #727070;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "PT Serif";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #0466C8;  /* headlines on a white background */ 
+  --headline-color-on-white: #290000;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #001233; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #002855  ;
-  --nav-link-color: black;
-  --nav-background-color: #5a647a;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #001233;
+  --paragraph-color-on-white: white; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #727070; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #290000  ;
+  --nav-link-color: white;
+  --nav-background-color: #290000;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #780000;
 }
 
 
@@ -83,12 +83,14 @@ p {
 
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
