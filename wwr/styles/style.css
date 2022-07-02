@@ -204,6 +204,105 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* This Section is headed to extra style of the rivers page 
+............................................................*/
+main {
+    font-family: 'Comic Neue', 'Times New Roman', 'Georgia';
+    margin: 0 auto;
+}
+.presentation-box {
+    background-color: #8b6161;
+    /* padding-top: 3em; */
+    padding-bottom: 4em;
+    margin: 0em 4em;
+}
+#rivers-title {   
+    display: block;
+    background-color: #660708;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 25px 60px;
+    margin: 2em 20em ;
+    /* border-radius: 5px; */
+    z-index: 2;
+    text-align: center;
+}
+
+.book-rivers {
+    display: inline-block;
+    font-size: 18px;
+    background-color: #660708;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+.book-rivers:hover {
+    background-color: white;
+    color: black;
+}
+#salmon-river-img, #grey-canyon-img, #grand-canyon-img {
+    width: 400px;
+    margin-top: 2em;
+    margin-left: 3em;
+    z-index: 1;
+    float: left;
+    box-shadow: 5px 5px 10px #190c0c;
+} 
+.box-title {
+    display: inline-block;
+    font-size: 2em;
+    padding-top: 2em;
+}
+.paragraph {
+    font-size: larger;
+    text-decoration: solid;
+    display: inline-block;
+    width: 55%;
+    padding: 1em;
+}
+.banners-section {
+    display: inline;
+    padding: 2em;
+}
+.river-img {
+    box-shadow: 2px 5px 10px #190c0c;
+}
+.river-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+.rivers-card1 {
+    display: inline-block;
+    align-content: flex-start;
+    padding: 4em 6em;
+}
+.rivers-card2 {
+    display: inline-block;
+    align-content: center;
+    padding: 4em 6em;
+}
+.rivers-card3 {
+    display: inline-block;
+    padding: 4em 6em;
+}
+.msg-rivers {
+    display: inline-block;
+    width: 40em;
+    background-color: #b1a7a6;
+    margin-left: 30%;
+    text-align: justify;
+    align-items: center;
+    padding: 1em;
+}
+.msg-rivers p{
+    font-size: x-large;
+    border: solid black;
+}
 /* Do not add any CSS after this section. 
 This section is intended to adjust the size of the
 page to a variety of screen sizes*/
