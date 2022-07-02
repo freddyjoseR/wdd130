@@ -297,11 +297,10 @@ main {
     margin-left: 30%;
     text-align: justify;
     align-items: center;
-    padding: 1em;
+    padding: 2em;
 }
-.msg-rivers p{
+.msg-rivers h3{
     font-size: x-large;
-    border: solid black;
 }
 /* Do not add any CSS after this section. 
 This section is intended to adjust the size of the
