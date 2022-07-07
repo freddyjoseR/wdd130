@@ -346,4 +346,41 @@ page to a variety of screen sizes*/
     footer {
         margin-top: 25px;
     }
+    /* -------------------------------
+    This section is for the Rivers Page */
+
+    #rivers-title {
+        display: inline-block;
+        margin: 5% 35%;
+        justify-content: center;
+    }
+    #salmon-river-img, #grey-canyon-img, #grand-canyon-img {
+    display: inline-block;
+    margin: 2em 8em;
+    } 
+    .msg-rivers {
+        margin-left: 20px;
+    }
+    .rivers-card1 {
+        display: block;
+        align-content: flex-start;
+        padding: 4em 6em;
+    }
+    .rivers-card2 {
+        display: block;
+        align-content: center;
+        padding: 4em 6em;
+    }
+    .rivers-card3 {
+        display: block;
+        padding: 6em;
+    }
+    .msg-rivers {
+        display: block;
+        margin: 0em 1em;
+    }
+    .msg-rivers h3 {
+        margin: 0em 3em;
+        padding: 2em;
+    }
 }
