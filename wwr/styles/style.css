@@ -364,16 +364,16 @@ page to a variety of screen sizes*/
     .rivers-card1 {
         display: block;
         align-content: flex-start;
-        padding: 4em 6em;
+        padding: 0.5em 6em;
     }
     .rivers-card2 {
         display: block;
         align-content: center;
-        padding: 4em 6em;
+        padding: 0.5em 6em;
     }
     .rivers-card3 {
         display: block;
-        padding: 6em;
+        padding: 0.5em 6em;
     }
     .msg-rivers {
         display: block;
