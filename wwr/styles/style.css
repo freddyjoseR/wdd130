@@ -293,7 +293,7 @@ main {
     display: inline-block;
     width: 40em;
     background-color: #b1a7a6;
-    margin-left: 30%;
+    margin: 0% 26%;
     text-align: justify;
     align-items: center;
     padding: 2em;
@@ -350,6 +350,7 @@ page to a variety of screen sizes*/
     This section is for the Rivers Page */
     #rivers-main {
         background-color: #8b6161;
+        padding-bottom: 2em;
     }
     .presentation-box{
         background-color: white;
@@ -394,6 +395,7 @@ page to a variety of screen sizes*/
         display: block;
         width: 24em;
         margin: 0em 1em;
+        border-bottom: solid black;
     }
     .msg-rivers h3 {
         /* margin: 0em 3em; */
