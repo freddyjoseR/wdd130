@@ -217,13 +217,13 @@ main {
     margin: 0em 4em;
 }
 #rivers-title {   
-    display: block;
+    display: inline-block;
     background-color: #660708;
     color: #ffffff;
-    text-decoration: none;
-    padding: 25px 60px;
-    margin: 2em 20em ;
-    /* border-radius: 5px; */
+    width: 5em;
+    padding: 0.7em ;
+    margin: 5% 45%;
+    /* border:  solid black; */
     z-index: 2;
     text-align: center;
 }
@@ -351,12 +351,13 @@ page to a variety of screen sizes*/
 
     #rivers-title {
         display: inline-block;
-        margin: 5% 35%;
+        margin: 5% 30%;
         justify-content: center;
     }
     #salmon-river-img, #grey-canyon-img, #grand-canyon-img {
     display: inline-block;
-    margin: 2em 8em;
+    width: 90%;
+    margin: 1em;
     } 
     .msg-rivers {
         margin-left: 20px;
@@ -377,10 +378,22 @@ page to a variety of screen sizes*/
     }
     .msg-rivers {
         display: block;
+        width: 24em;
         margin: 0em 1em;
     }
     .msg-rivers h3 {
-        margin: 0em 3em;
-        padding: 2em;
+        /* margin: 0em 3em; */
+        padding: 0.5em 0em;
+        text-align: start;
+        border: solid black;
     }
+    .book-rivers {
+        display: block;
+        /* font-size: 18px; */
+        /* background-color: #660708; */
+        /* color: white; */
+        /* text-decoration: none; */
+        margin: 0% 35%;
+        border: solid black;
+
 }
