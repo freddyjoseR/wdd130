@@ -369,7 +369,6 @@ page to a variety of screen sizes*/
     .box-title {
         font-size: x-large;
         margin: 0px 20px;
-        border: solid black;
         padding: 0;
     }
     .paragraph {
@@ -379,7 +378,6 @@ page to a variety of screen sizes*/
     display: inline-block;
     width: 80%;
     margin: 4% 10%;
-    border: solid black;
     } 
     .msg-rivers {
         margin-left: 20px;
@@ -391,7 +389,6 @@ page to a variety of screen sizes*/
         display: block;
         padding: 0;
         margin: 0 auto;
-        border: solid black;
     }
     .rivers-card2 {
         display: block;
