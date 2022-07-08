@@ -351,60 +351,78 @@ page to a variety of screen sizes*/
     #rivers-main {
         background-color: #8b6161;
         padding-bottom: 2em;
+        padding-top: 2em;
     }
     .presentation-box{
         background-color: white;
+        display: inline-block;
+        margin: 0 auto;
     }
     #rivers-title {
         color: #660708;
         background-color: white;
-        display: inline-block;
-        margin: 5% 30%;
+        display: block;
+        
+        margin: 0 auto 1em;
         justify-content: center;
     }
     .box-title {
         font-size: x-large;
         margin: 0px 20px;
+        border: solid black;
+        padding: 0;
     }
     .paragraph {
         width: 80%;
     }
     #salmon-river-img, #grey-canyon-img, #grand-canyon-img {
     display: inline-block;
-    width: 90%;
-    margin: 1em;
+    width: 80%;
+    margin: 4% 10%;
+    border: solid black;
     } 
     .msg-rivers {
         margin-left: 20px;
     }
+    .river-img {
+        width: 12em;
+    }
     .rivers-card1 {
         display: block;
-        align-content: flex-start;
-        padding: 0.5em 6em;
+        padding: 0;
+        margin: 0 auto;
+        border: solid black;
     }
     .rivers-card2 {
         display: block;
-        align-content: center;
-        padding: 0.5em 6em;
+        padding: 0;
+        margin: 0 auto;
     }
     .rivers-card3 {
         display: block;
-        padding: 0.5em 6em;
+        padding: 0;
+        margin: 0 auto;
     }
     .msg-rivers {
         display: block;
-        width: 24em;
-        margin: 0em 1em;
-        border-bottom: solid black;
+        width: 60%;
+        margin: 0 auto;
     }
     .msg-rivers h3 {
-        /* margin: 0em 3em; */
+        font-size: medium;
         padding: 0.5em 0em;
         text-align: start;
     }
     .book-rivers {
+        font-size: small;
         display: block;
-        margin: 0% 35%;
+        width: 5em;
+        margin: 0 auto;
+        /* padding: 1em; */
+        text-align: center;
+    }
+    .banners-section {
+        font-size: small;
     }
 
 }
