@@ -259,7 +259,6 @@ main {
 }
 .paragraph {
     font-size: larger;
-    text-decoration: solid;
     display: inline-block;
     width: 55%;
     padding: 1em;
@@ -316,6 +315,7 @@ page to a variety of screen sizes*/
     }
     nav a {
         display: block;
+        border-left: solid white;
         padding: 15px;
     }
     #hero {
@@ -348,11 +348,25 @@ page to a variety of screen sizes*/
     }
     /* -------------------------------
     This section is for the Rivers Page */
-
+    #rivers-main {
+        background-color: #8b6161;
+    }
+    .presentation-box{
+        background-color: white;
+    }
     #rivers-title {
+        color: #660708;
+        background-color: white;
         display: inline-block;
         margin: 5% 30%;
         justify-content: center;
+    }
+    .box-title {
+        font-size: x-large;
+        margin: 0px 20px;
+    }
+    .paragraph {
+        width: 80%;
     }
     #salmon-river-img, #grey-canyon-img, #grand-canyon-img {
     display: inline-block;
@@ -385,15 +399,10 @@ page to a variety of screen sizes*/
         /* margin: 0em 3em; */
         padding: 0.5em 0em;
         text-align: start;
-        border: solid black;
     }
     .book-rivers {
         display: block;
-        /* font-size: 18px; */
-        /* background-color: #660708; */
-        /* color: white; */
-        /* text-decoration: none; */
         margin: 0% 35%;
-        border: solid black;
+    }
 
 }
