@@ -1,0 +1,46 @@
+body {
+    margin: 0 auto;
+    background-color: #f1f1f3;
+    /* padding: 900px; */
+}
+#content {
+    /* width: 1080px; */
+    /* height: 1000px; */
+}
+.logo {
+    width: 12%;
+    display: block;
+    margin: 0 auto;
+}
+nav {
+    padding: 2%;
+    background-color: #290000;
+    margin-top: 5px;
+    text-align: center;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 90px;
+    font-size: 25px;
+}
+#hero-img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#purchase-img, #classes-img {
+    width: 20em;
+    display: inline-block;
+}
+footer {
+    padding: 10px 23px 5px;
+    background-color: #290000;
+}
+footer a, h3 {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-logo {
+    width: 56px;
+}
