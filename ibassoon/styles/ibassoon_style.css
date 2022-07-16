@@ -28,7 +28,7 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0% 4em;
+    margin: 0% 4%;
     font-size: 180%;
 }
 nav a:hover {
@@ -158,7 +158,6 @@ footer p {
     grid-area: 2/1/3/2;
     font-size: 20px;
     text-align: center;
-    border: solid black;
 }
 #author-rights {
     grid-area: 2/1/3/2;
@@ -170,18 +169,15 @@ footer p {
     margin-top: auto;
     margin-right: 0 auto;
     text-align: center;
-    border: solid black;
 }
 #siteplan-link {
     grid-area: 2/3/3/4;
     margin-top: auto;
-    border: solid black;
 }
 #social-grid {
     grid-area: 2/4/3/5;
     margin-top: 2em;
     text-align: center;
-    border: solid black;
 }
 #social-grid a {
     margin-right: 1em;
@@ -233,8 +229,8 @@ page to a variety of screen sizes*/
         padding: 15px;
         width: 55%;
         margin: 0 auto;
-        margin-top: 0.5em;
-        border: 2.8px solid black;
+        margin-top: 0.3em;
+        border: 1.5px solid black;
     }
     #store-img, #classes-img {
         width: 80%;
