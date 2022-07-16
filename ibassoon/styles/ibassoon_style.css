@@ -28,14 +28,14 @@ nav {
 nav a {
     color: #ffffff;
     text-decoration: none;
-    margin: 0% 4%;
+    margin: 0% 7%;
     font-size: 180%;
 }
 nav a:hover {
     /* background-color: #560a0a; */
     opacity: 0.8;
     padding: 1%;
-    margin: 0% 6.4%;
+    margin: 0% 6%;
     box-shadow: 0px -2px 7px #290000;
 }
 /* -----------Intersection from header to main section---------- */
@@ -167,7 +167,6 @@ footer p {
 #contactus-link {
     grid-area: 2/2/3/3;
     margin-top: auto;
-    margin-right: 0 auto;
     text-align: center;
 }
 #siteplan-link {
@@ -181,7 +180,7 @@ footer p {
 }
 #social-grid a {
     margin-right: 1em;
-    text-align: start;
+    /* text-align: start; */
 }
 
 /* Do not add any CSS after this section. 
