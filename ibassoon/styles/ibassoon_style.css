@@ -6,7 +6,7 @@ body {
 }
 #content {
     max-width: 1600px;
-    border: solid black;
+    /* border: solid black; */
 }
 main {
     padding-bottom: 10em;
@@ -225,27 +225,34 @@ page to a variety of screen sizes*/
         color: #290000;
         /* border: solid black; */
         margin: 0 auto;
-        padding: 2%;
+        padding: 1%;
     }
     #first-msg {
         background-color: gray;
-        font-size: x-small;
+        font-size: 15px;
         margin: 0 auto;
         padding: 12px;
-        margin-bottom: 2em;
+        margin: 1em 1em 5em 1em;
     }
     #hero {
         display: block;
     }
     #home-grid {
-        display: block;
+        display: inline-block;
     }
     #store-text, #classes-text {
-        font-size: 22px;
-        padding: 20px;
+        font-size: 20px;
+        padding: 15px;
+        width: 35%;
+        margin-left: 25%;
+        border: solid black;
+    }
+    #home-grid img {
+        width: 75%;
+        margin-left: 12%;
     }
     #store-text {
-        margin-bottom: 2em;
+        margin-bottom: 4em;
     }
     #store-button, #classes-button {
         padding: 8px;
@@ -258,7 +265,6 @@ page to a variety of screen sizes*/
         text-align: center  ;
     }
     .social-logo {
-        /* display: inline-block; */
         width: 20px;
     }
 }
