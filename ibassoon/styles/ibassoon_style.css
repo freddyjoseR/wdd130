@@ -194,8 +194,14 @@ page to a variety of screen sizes*/
     main {
         padding-bottom: 2em;
     }
+    .logo {
+        width: 25%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 0.7%;
+    }
     nav a{
-        font-size: 80%;
+        font-size: 90%;
     }
     #hero-img {
         order: 1;
@@ -223,13 +229,14 @@ page to a variety of screen sizes*/
     #store-text, #classes-text {
         font-size: 20px;
         padding: 15px;
-        width: 35%;
-        margin-left: 25%;
-        border: 4px solid black;
+        width: 45%;
+        margin-left: 20%;
+        border: 2.8px solid black;
     }
     #store-img, #classes-img {
-        width: 75%;
-        margin-left: 12%;
+        width: 80%;
+        margin-left: 10%;
+        box-shadow: 2px 2px 15px #190c0c;
     }
     #store-text {
         margin-bottom: 4em;
