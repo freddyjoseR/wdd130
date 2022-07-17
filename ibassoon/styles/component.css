@@ -1,14 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto:wght@300&display=swap');
-
-body {
-    margin: 0 auto;
-    max-width: 1600px;
-}
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(87, 66, 66);
+    background-color: #290000;
     overflow: hidden;
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -18,51 +13,35 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Change the color of links on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: rgb(44, 44, 41);
+    color: black;
 }
+
 /* Add an active class to highlight the current page */
 .topnav a.active {
-    background-color: #281515;
-    color: white;
+  background-color: #560a0a;
+  color: white;
 }
+
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
 }
-section h1{
-    color: rgb(87, 66, 66);
-    width: 40%;
-    padding: 2% 5%;
-    font-size: 35px;
-    margin: 0 auto;
-    margin-top: 1em;
-    /* border: solid black; */
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-section p {
-    width: 50%;
-    border: solid black;
-    margin: 0 auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: 2.2% 1.5%;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
+}
+
+@media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
         position: absolute;
