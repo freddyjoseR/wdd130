@@ -9,44 +9,59 @@
     <title>WDD130 Home Page</title>
 </head>
 <body>
-  <header>
-    <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Home</a>
-      <a href="aboutme/index.html">About Me</a>             
-      <a href="wwr/index.html">White Water Rafting Website</a>
-      <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-      <a href="positioning/positioning.html">Positioning Activity</a>
-      <a href="ibassoon/index.html">Personal Website</a>
-      <a href="ibassoon/site-plan.html">Personal Siteplan</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-  </header>  
-  <main>
-    <section>
-      <h1>Welcome to WDD130 Web Projects</h1>
-      <p>This is my university's projects site. You can find links to websites, siteplans, and even a little biography about me.</p>
-    </section>
-    <div>
-      <img src="https://www.salleurl.edu/sites/default/files/styles/ample_1400/public/content/nodes/Estudio/image/4390/5539/programacion_web_online_la_salle.jpg" alt="Person Programming">
-    </div>
-  </main>
-  <footer>
-    <h3> &copy;Freddy Rodriguez - WDD130</h3>
-    <a href="https://www.byupathway.org/" target="_blank"><h2>BYU Pathway Student</h2></a>
-    <p>Latest update 17/07/2022</p>
-  </footer>
-  <script>
-    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-        var x = document.getElementById("myTopnav"); 
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
+    <header>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="aboutme/index.html">About Me</a>             
+            <a href="wwr/index.html">White Water Rafting Website</a>
+            <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
+            <a href="positioning/positioning.html">Positioning Activity</a>
+            <a href="ibassoon/index.html">Personal Website</a>
+            <a href="ibassoon/site-plan.html">Personal Siteplan</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>  
+    <main>
+        <section>
+            <h1>Welcome to WDD130 Web Projects</h1>
+            <p>This is my university's projects site. You can find links to websites, siteplans, and even a little biography about me.</p>
+        </section>
+        <div>
+            <img src="https://www.salleurl.edu/sites/default/files/styles/ample_1400/public/content/nodes/Estudio/image/4390/5539/programacion_web_online_la_salle.jpg" alt="Person Programming">
+        </div>
+    </main>
+    <footer>
+        <div id="byu-link">
+            <a href="https://www.byupathway.org/" target="_blank"><h2>BYU Pathway Student</h2></a>
+        </div>
+        <Section id="rights">
+            <h3>&copy;Freddy Rodriguez - WDD130</h3>
+            <p>Latest update 17/07/2022</p>
+        </Section>
+        <div id="social">
+            <a href="https://www.facebook.com/profile.php?id=100000201860371" target="_blank">
+                <img class="social-logo" src="ibassoon/images/facebook_icon.png" alt=" Facebook Icon">
+            </a>
+            <a href="https://www.instagram.com/freddyrd_/" target="_blank">
+                <img class="social-logo" src="ibassoon/images/instagram_icon.png" alt=" Instagram Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/freddy-rodr%C3%ADguez-28a2b8223/" target="_blank">
+                    <img class="social-logo" src="ibassoon/images/linkedin.png" alt="LinkedIn Icon">
+            </a>
+        </div>
+        </footer>
+    <script>
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav"); 
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-    }
-</script>
+    </script>
 </body>
 </html>

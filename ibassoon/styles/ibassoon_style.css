@@ -18,8 +18,10 @@ main {
     margin-top: 0.7%;
 }
 nav {
-    width: 98%;
-    padding: 1%;
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 1% 0%;
     background-color: #290000;
     margin-top: 0.8%;
     text-align: center;
@@ -37,6 +39,8 @@ nav a:hover {
     margin: 0% 6%;
     box-shadow: 0px -2px 7px #290000;
 }
+/* -------------------------------------- HOME PAGE - PAGE 1 --------------------------------------  */
+
 /* -----------Intersection from header to main section---------- */
 #hero {
     max-width: 1600px;
@@ -135,13 +139,13 @@ nav a:hover {
 /* -----------This section is for the footer---------- */
 
 footer {
-    /* max-width: 1600px; */
+    max-width: 1600px;
     width: 100%;
     background-color: #290000;
     display: grid;
     grid-template-columns: 30% 20% 12% 38%;
     grid-template-rows: 5em 7em 5em;
-    margin: 0 auto
+    margin: 0 auto;
 }
 footer a, footer p {
     color: #ffffff;
@@ -179,7 +183,172 @@ footer p {
 }
 #social-grid a {
     margin-right: 1em;
-    /* text-align: start; */
+}
+
+/* --------------------------------------  STORE PAGE - PAGE 2 -------------------------------------- */
+
+.section-headings {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+#bassoons h3, #bassoons a, #accessories h3, #accessories a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+#store-content {
+    padding-bottom: 5em;
+}
+#line {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    border-bottom: 1px solid black;
+    padding-top: 5em;
+}
+
+/*--------------- Bassoon section ---------------*/
+#bassoons {
+    display: grid;
+    grid-template-columns: 8% 25% 5% 25% 5% 25%;
+    grid-template-rows: 10% 87% 15% 10%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #560a0a;
+    border: solid red;
+    padding-bottom: 7em;
+
+}
+#yamaha {
+    grid-area: 2/2/3/3; 
+    margin-top: auto;
+    text-align: center;
+}
+#yamaha img {
+    width: 90%;
+}
+#yamaha h3 {
+    margin: 0 auto;
+    color: #ffffff;
+}
+#yamaha-button {
+    text-align: center;
+    grid-area: 3/2/4/3;
+    margin-top: auto;
+}
+#schreiber {
+    grid-area: 2/4/3/5;
+    margin-top: auto;
+    text-align: center;
+}
+#schreiber img {
+    width: 90%;
+}
+#schreiber h3 {
+    color: #ffffff;
+    margin: 0 auto;
+}
+#schreiber-button {
+    grid-area: 3/4/4/5;
+    margin-top: auto;
+    text-align: center;
+}
+#moosmann {
+    grid-area: 2/6/3/7;
+    text-align: center;
+}
+#moosmann img {
+    width: 90%;
+}
+#moosmann h3 {
+    color: #ffffff;
+}
+#moosmann-button {
+    grid-area: 3/6/4/7;
+    margin-top: auto;
+    text-align: center;
+}
+#yamaha-button a, #schreiber-button a, #moosmann-button a {
+    border: 1.5px solid #fbbcbc;
+    border-radius: 50px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #560a0a;
+    background-color: #ebebeb;
+}
+#yamaha-button a:hover, #schreiber-button a, #moosmann-button a {
+    /* opacity: 0.8; */
+}
+/*--------------- Accesories section ---------------*/
+
+#accessories {
+    display: grid;
+    grid-template-columns: 8% 25% 5% 25% 5% 25%;
+    grid-template-rows: 10% 87% 15% 10%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5em;
+    background-color: #fbbcbc;
+    padding-bottom: 7em;
+
+}
+#reeds {
+    grid-area: 2/2/3/3; 
+    margin-top: auto;
+    text-align: center;
+}
+#reeds img {
+    width: 90%;
+}
+#reeds h3 {
+    margin: 0 auto;
+    color: #560a0a;
+}
+#reeds-button {
+    text-align: center;
+    grid-area: 3/2/4/3;
+    margin-top: auto;
+}
+#case {
+    grid-area: 2/4/3/5;
+    margin-top: auto;
+    text-align: center;
+}
+#case img {
+    width: 90%;
+}
+#case h3 {
+    color: #560a0a;
+    margin: 0 auto;
+}
+#case-button {
+    grid-area: 3/4/4/5;
+    margin-top: auto;
+    text-align: center;
+}
+#tools {
+    grid-area: 2/6/3/7;
+    text-align: center;
+}
+#tools img {
+    width: 90%;
+}
+#tools h3 {
+    color: #560a0a;
+}
+#tools-button {
+    grid-area: 3/6/4/7;
+    margin-top: auto;
+    text-align: center;
+}
+#reeds-button a, #case-button a, #tools-button a {
+    border-radius: 50px;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 0.5px solid #560a0a;
+    color: #560a0a;
+    background-color: #ebebeb;
 }
 
 /* Do not add any CSS after this section. 
@@ -257,5 +426,42 @@ page to a variety of screen sizes*/
         margin-right: 5px;
         padding-bottom: 15px;
 
+    }
+    /* Store Page - Page 2 */
+    #bassoons {
+        display: block;
+        font-size: 35px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #bassoons img {
+        width: 60%;
+        margin-bottom: 0.5em;
+    }
+    #bassoons h3 {
+        margin-bottom: 1em;
+    }
+    #yamaha-button , #schreiber-button , #moosmann-button {
+        margin-bottom: 2em;
+    }
+    #accessories {
+        display: block;
+        font-size: 35px;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    #accessories img {
+        width: 60%;
+        margin-bottom: 0.5em;
+    }
+    #accessories h3 {
+        margin-bottom: 1em;
+        font-size: 60%;
+    }
+    #reeds-button , #case-button , #tools-button {
+        margin-bottom: 2em;
+    }
+    #bassoons a, #accessories a {
+        font-size: 45%;
     }
 }
