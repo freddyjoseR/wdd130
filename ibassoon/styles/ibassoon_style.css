@@ -655,7 +655,7 @@ page to a variety of screen sizes*/
         display: inline-block;
         width: 90px;
         text-align: left;
-        padding-bottom: ;
+        padding-bottom: 0.5em;
     }
     
     form {
