@@ -207,7 +207,7 @@ footer p {
     padding-top: 5em;
 }
 
-/*--------------- Bassoon section ---------------*/
+/*--------------- Bassoons section ---------------*/
 #bassoons {
     display: grid;
     grid-template-columns: 8% 25% 5% 25% 5% 25%;
