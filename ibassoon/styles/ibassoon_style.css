@@ -12,7 +12,7 @@ main {
 /* -----------This section is for the header---------- */
 
 .logo {
-    width: 8%;
+    width: 7em;
     display: block;
     margin: 0 auto;
     margin-top: 0.7%;
@@ -21,7 +21,7 @@ nav {
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
-    padding: 1% 0%;
+    padding: 15px 0px;
     background-color: #290000;
     margin-top: 0.8%;
     text-align: center;
@@ -33,7 +33,6 @@ nav a {
     font-size: 180%;
 }
 nav a:hover {
-    /* background-color: #560a0a; */
     opacity: 0.8;
     padding: 1%;
     margin: 0% 6%;
@@ -216,7 +215,6 @@ footer p {
     width: 90%;
     margin: 0 auto;
     background-color: #560a0a;
-    border: solid red;
     padding-bottom: 7em;
 
 }
@@ -277,9 +275,7 @@ footer p {
     color: #560a0a;
     background-color: #ebebeb;
 }
-#yamaha-button a:hover, #schreiber-button a, #moosmann-button a {
-    /* opacity: 0.8; */
-}
+
 /*--------------- Accesories section ---------------*/
 
 #accessories {
@@ -351,6 +347,175 @@ footer p {
     background-color: #ebebeb;
 }
 
+/* -------------------------------------- About Us Page - Page 3 -------------------------------------- */
+#aboutus-main {
+    padding-bottom: 2%
+}
+#aboutus-title {    
+    text-align: center;
+    font-size: 30px;
+    padding: 2% 0% 1.5% 0%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #560a0a;
+}
+#aboutus-title h1 {
+    margin: 0 auto;
+}
+.sections-text {
+    grid-column: 1/2;
+}
+.sections-text h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #560a0a;
+    font-size: 50px;
+    margin: 4% 5%;
+}
+.sections-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32.5px;
+    margin: 0% 5% 5%;
+    padding: 2%;
+}
+#overview-section {
+    display: grid;
+    grid-template-columns: 75% 35%;
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+}
+#overview-img {
+    width: 60%;
+    /* margin: 0 auto; */
+    grid-column: 2/3;
+}
+#overview-img img {
+    margin-top: 15%;
+    width: 90%;
+}
+#purpose-section {
+    display: grid;
+    grid-template-columns: 75% 22%;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+#purpose-section div {
+    margin: 40% 0%;
+}
+#purpose-section div img {
+    width: 75%;
+    margin-left: 12%;
+    border-radius: 50px;
+}
+
+#community-section {
+    margin: auto;
+    margin-top: 2%;
+    width: 90%;
+}
+
+/* -------------------------------------- Form Page -------------------------------------- */
+#contactus section {
+    width: 50%;
+    margin: 0 auto;
+    /* border: solid black; */
+    padding: 0% 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+#contactus section h2 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #560a0a;
+    padding-bottom: 2%;
+    border-bottom: 2px solid #999;
+}
+#contactus section p {
+    color: #560a0a;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #999;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+    font: 1em sans-serif;
+
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* Match form field borders */
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+}
+
+.button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: .5em;
+    border-radius: 50px;
+    padding: 2%;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;       
+}
+.moveDown {
+    margin-top: 3em;
+}
+
 /* Do not add any CSS after this section. 
 This section is intended to adjust the size of the
 page to a variety of screen sizes*/
@@ -364,6 +529,9 @@ page to a variety of screen sizes*/
         display: block;
         margin: 0 auto;
         margin-top: 0.7%;
+    }
+    nav {
+        padding: 1.5% 0%;
     }
     nav a{
         font-size: 90%;
@@ -463,5 +631,68 @@ page to a variety of screen sizes*/
     }
     #bassoons a, #accessories a {
         font-size: 45%;
+    }
+    /* About Us Page - Page 3 */
+    #aboutus-title {
+        font-size: 100%;
+        margin-top: 3%;
+    }
+    .sections-text h2 {
+        font-size: 150%;
+    }
+    .sections-text p {
+        font-size: 100%;
+    }
+    #overview-section, #purpose-section, #community-section {
+        margin-top: 8%;
+        padding-top: 2%;
+        border-top: 0.8px solid #290000;
+    }
+    /* Form Page */
+    
+    label {
+        /* Uniform size & alignment */
+        display: inline-block;
+        width: 90px;
+        text-align: left;
+        padding-bottom: ;
+    }
+    
+    form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 200px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #999;
+        border-radius: 1em;
+    }
+    input, textarea {
+        width: 98%;
+    }
+    .button {
+        padding-left: 0%;
+    }
+    
+    button {
+        margin-left: 15%;
+        padding: 3%;
+        border-radius: 50px;
+    }
+    #contactus section h2 {
+        margin: auto;
+        margin-bottom: 3%;
+        font-size: 100% ;
+        width: 75%;
+        border-bottom: 0.3px solid #999;
+    }
+    #contactus section p {
+        margin: 0 auto;
+        width: 75%;
+        font-size: 65%;
+    }
+    #contactus section {
+        margin-bottom: 8%;
+        width: 100%;
     }
 }
