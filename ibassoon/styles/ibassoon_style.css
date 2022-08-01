@@ -17,7 +17,7 @@ main {
     margin: 0 auto;
     margin-top: 0.7%;
 }
-nav {
+.topnav {
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
@@ -26,17 +26,20 @@ nav {
     margin-top: 0.8%;
     text-align: center;
 }
-nav a {
+.topnav a {
     color: #ffffff;
     text-decoration: none;
     margin: 0% 7%;
     font-size: 180%;
 }
-nav a:hover {
+.topnav a:hover {
     opacity: 0.8;
     padding: 1%;
     margin: 0% 6%;
     box-shadow: 0px -2px 7px #290000;
+}
+.topnav .icon {
+    display: none;
 }
 /* -------------------------------------- HOME PAGE - PAGE 1 --------------------------------------  */
 
@@ -530,14 +533,34 @@ page to a variety of screen sizes*/
         margin: 0 auto;
         margin-top: 0.7%;
     }
-    nav {
-        padding: 1.5% 0%;
+    .topnav {
+        padding: 1%;
+        text-align: left;
+        font-size: 10px;
     }
-    nav a{
-        font-size: 90%;
+    .topnav a:hover {
+        padding: 0% 1%;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-top: 10px;
     }
     #hero-img {
-        order: 1;
+        /* order: 1; */
+        width: 102%;
     }
     #home-title {
         font-size: medium;
